@@ -24,9 +24,11 @@ public class LoginPage {
 		driver.findElement(By.id("passwd")).sendKeys("645218");
 		driver.findElement(By.id("loginBtn")).click();
 		Thread.sleep(1000);
+		
+		
 
-}
+}}
 	
-}
+
 
 
