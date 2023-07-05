@@ -21,7 +21,7 @@ public class AssertImageSection extends LoginPage {
 		// Single Image 
 		String imagePath = "D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data1.jpg";  // Image path
 		fileInput.sendKeys(imagePath); // Upload Image
-		driver.findElement(By.xpath("//button[@id='close-asset-photo-popup']")).click();  // Close screen afte upload Img
+		driver.findElement(By.xpath("//button[@id='close-asset-photo-popup']")).click();  // Close screen after upload Img
 		
 		
 		driver.findElement(By.xpath("//input[@id='184']")).click();  // Drop down
@@ -33,8 +33,7 @@ public class AssertImageSection extends LoginPage {
 		 // Multiple Image.
         String[] imagePaths = {"D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data1.jpg",
                 "D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data2.jpg",
-                "D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data4.jpg",
-                "D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data5.jpg"};
+                "D:\\eclipse-workspace\\TestAutomationScript\\TestImages/data4.jpg"};
 	for(String imgpath : imagePaths) {
 		f1.sendKeys(imgpath);
 	}

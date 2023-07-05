@@ -12,7 +12,7 @@ public class DashBoardPage1 extends LoginPage{
 		// home-->DashBoard-->Map InterFace 
 		 
 	driver.findElement(By.xpath("//i[@class='uil-map-marker ']")).click(); 
-	Thread.sleep(25000); // More time Consumed for Map loading
+	Thread.sleep(24000); // More time Consumed for Map loading
 	// Navigations on Map ON Button
 	WebElement mapOn = driver.findElement(By.xpath("//button[@class='mp-off mp_off']"));
 	mapOn.click();

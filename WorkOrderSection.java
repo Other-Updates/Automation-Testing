@@ -10,6 +10,7 @@ public class WorkOrderSection extends LoginPage {
 	public void workOrderSection() throws InterruptedException {
 		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		Thread.sleep(1000);
 		driver.findElement(By.xpath("(//i[@class='uil-plus-circle'])[1]")).click();// Actions on Add new Work records
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("(//span[contains(text(),'Select Work Order Template')])[1]")).click(); // click on drop Down

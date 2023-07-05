@@ -12,7 +12,7 @@ public class GeometrySection extends LoginPage {
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("(//a[@title='Geometry Chart'])[4]")).click(); // Enter geo-Chart
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		driver.navigate().back();
 		driver.findElement(By.xpath("(//i[@class='uil-file-upload-alt '])[6]")).click();
 		Thread.sleep(1000);
